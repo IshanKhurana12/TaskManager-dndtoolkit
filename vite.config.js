@@ -7,6 +7,8 @@ export default defineConfig({
   build: {
     rollupOptions: {
       external: ['@dnd-kit/react'], 
+    }, optimizeDeps: {
+      include: ['@dnd-kit/react'],
     },
   },
 })
