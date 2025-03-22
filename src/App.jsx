@@ -1,11 +1,10 @@
 import { DragDropProvider } from '@dnd-kit/react';
-
 import { Draggable } from './Draggable';
 import { Droppable } from './Droppable';
 import { useState, useContext } from 'react';
 import TaskContext from './TaskProvider';
 import Input from './Input';
-import './app.css'
+import './App.css';
 import useLocalStorage from './useLocalStorage';
 import Mode from './Mode';
 export default function App() {
